@@ -2,6 +2,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: beige;
 }
 
 #calcframe {
@@ -13,20 +14,35 @@ body {
   width: 400px;
   margin-top: 40px;
   border: solid;
+  border-radius: 5px;
   border-color: black;
+  box-shadow: 5px 5px 5px rgb(185, 174, 174);
 }
 
 #display {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
   margin: 15px;
   width: 360px;
   height: 80px;
   border: solid;
+  border-radius: 3px;
   border-color: black;
   background-color: rgb(230, 243, 245);
 }
 
+.displayHistory {
+  margin: 5px;
+  font-size: 18px;
+}
+
+.displayOutput {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -48,7 +64,7 @@ body {
   display: grid;
   height: 90%;
   width: 25%;
-  grid-template: repeat(2, 1fr);
+  grid-template: 1, 1fr;
   gap: 3px;
 }
 
@@ -56,6 +72,18 @@ body {
   background-color: rgb(199, 207, 219);
 }
 
+.operation-btn:hover {
+  background-color: rgb(174, 188, 209);
+  transition: 0.15s;
+  border-color: rgb(84, 90, 90);
+}
+
 #clear-btn {
   background-color: rgb(214, 103, 103);
+}
+
+#clear-btn:hover {
+  background-color: rgb(211, 132, 132);
+  border-color: rgb(84, 90, 90);
+  transition: 0.15s;
 }
