@@ -36,12 +36,14 @@ body {
 .displayHistory {
   margin: 5px;
   font-size: 18px;
+  min-height: 26px;
 }
 
 .displayOutput {
   margin: 10px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
+  min-height: 39px;
 }
 .container {
   display: grid;
@@ -70,6 +72,7 @@ body {
 
 .operation-btn {
   background-color: rgb(199, 207, 219);
+  font-size: 16px;
 }
 
 .operation-btn:hover {
@@ -80,6 +83,7 @@ body {
 
 #clear-btn {
   background-color: rgb(214, 103, 103);
+  font-size: 16px;
 }
 
 #clear-btn:hover {
