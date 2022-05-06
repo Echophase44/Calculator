@@ -35,8 +35,18 @@ body {
 
 .displayHistory {
   margin: 5px;
-  font-size: 18px;
+  font-size: 20px;
   min-height: 26px;
+}
+
+.operatorSign{
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.historyContainer{
+  display: flex;
+  align-items: center;
 }
 
 .displayOutput {

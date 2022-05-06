@@ -1,3 +1,3 @@
 # Calculator
 
-Utilizing HTML, CSS, and Javascript
+Created a basic calculator utilizing HTML, CSS, and Javascript.
